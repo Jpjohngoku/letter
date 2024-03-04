@@ -1,0 +1,32 @@
+
+body {
+  margin: 0;
+
+  background: white;
+}
+
+.grid-container {
+  display: grid;
+
+  grid-template-rows: 10vh 90vh;
+}
+
+
+.image {
+  width: 100vw;
+  position: absolute;
+}
+
+
+#slider {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color:red;
+  padding: 20px;
+  text-align: center;
+}
+
+.image-container:first-child {
+    display: block;
+}
